@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.space {
+    width: 33vw;
+    height: 33vw;
+    flex: 0 0 33.33333%
+}
+
+.item {
+    margin: 8px;
+    background-color: green;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+}
+.moving {
+    opacity: .8;
+    background-color: gray;
+}
